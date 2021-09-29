@@ -9,6 +9,7 @@ setup(
     packages=find_packages(exclude=["build","dist","benzaiten_asr.egg-info","tests"]),
     version='0.1.3',
     description='ASR phoneme error analysis Python library',
+    long_description=open('README.md').read(),
     author='Bence Mark Halpern',
     license='MIT',
     install_requires=['pandas==1.3.1', 'scikit-learn==0.24.2', 'PyYaml==5.4.1', 'inflect==5.3.0',
