@@ -1,0 +1,10 @@
+
+phoneme:
+  dictionary: text/mandarin_lexicon.dict
+  moa: ["Vowel","Plosive","Nasal","Fricative","Approximant","Affricates"]
+  poa: ["Vowel","Bilabial","Labiodental","Alveolar","Alveopalatal","Velar","Glottal","Retroflex"]
+  alternative_cmudict: True
+  phoneme_name: "MandarinPhone"
+  conversion_mapping: "PhoneSet_mandarin.csv"
+  dutch_oov_rule: True
+asr: "kaldi"
